@@ -1,0 +1,76 @@
+* {
+    margin-top: 15px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+header {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+form input {
+    border: none;
+}
+
+p {
+    font-family: 'Rubik', sans-serif;
+}
+label {
+    font-family: 'Rubik', sans-serif;
+}
+.add {
+    text-align: center
+}
+.menu, .url-container {
+    align-items: center;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 1px;
+    grid-auto-rows: 20px;
+    grid-template-areas: 
+        "a b b c d";
+        font-family: 'Rubik', sans-serif;
+}
+.item-1 {
+    grid-area: a;
+}
+.item-2 {
+    grid-area: b;
+}
+.item-3 {
+    grid-area: c;
+}
+.item-4 {
+    grid-area: d;
+}
+.title, .link {
+    font-style: italic;
+}
+.input-url {
+    font-size: 12px;
+}
+.input-title {
+    font-size: 12px;
+}
+.add-button {
+    padding: 5px;
+    margin-left: 1px;
+    cursor: pointer;
+    background: white;
+    transition: all 0.3s ease;
+}
+.title {
+    grid-area: a;
+}
+.url-list {
+    grid-area: b;
+}
+.edit-buttons {
+    grid-area: c;
+}
